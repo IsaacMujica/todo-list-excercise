@@ -19,7 +19,8 @@ Un Todo List. Pero, colaborativo, que las personas puedan comentar sobre el "TOD
   - Crear interfaz para definir grupo
   - Manejar CSS
 
-Tiempo estimado: 1h
-Tiempo con tutor: 1h
-Tiempo hasta lograr el ejercicio: 2h 2m
-Tiempo total: 3h 2m
+## Tiempos:
+- Tiempo estimado: 1h
+- Tiempo con tutor: 1h
+- Tiempo hasta lograr el ejercicio: 2h 2m
+- Tiempo total: 3h 2m
