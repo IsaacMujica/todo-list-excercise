@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <title>ToDo List</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div id="groupSelection" class="col d-flex justify-content-center">
+          <button class="group_button btn btn-warning mx-1" data-id="1">Grupo de trabajo 1</button>
+          <button class="group_button btn btn-warning mx-1" data-id="2">Grupo de trabajo 2</button>
+          <button class="group_button btn btn-warning mx-1" data-id="3">Grupo de trabajo 3</button>
+        </div>
+        <div id="toDoList" class="col d-none">
+          <div class="row">
+            <div class="col">
+              <h2 id="titleGroup">Grupo de trabajo 1</h2>
+              <div class="todo_list_1">
+                <table id="listDisplay">
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Comentario</th>
+                      <th>Eliminar</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="text" name="nameToDo" id="nameToDo">
+              <input type="checkbox" name="deleteToDo" id="deleteToDo">
+              <button class="btn btn-info" id="createToDo">Crear ToDo</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button id="selectGroup" class="btn btn-info">Seleccionar grupo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
