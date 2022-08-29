@@ -24,3 +24,5 @@ Un Todo List. Pero, colaborativo, que las personas puedan comentar sobre el "TOD
 - Tiempo con tutor: 1h
 - Tiempo hasta lograr el ejercicio: 2h 2m
 - Tiempo total: 3h 2m
+
+[Sitio desplegado en Netlify](https://630d27db3e4a7027ac2222f7--genuine-stroopwafel-d52511.netlify.app/)
